@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: DI-OSVISE
+title: Open Source Verification of Instruction Set Extensions
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  DI-OSVISE is a research project on Open Source Verification of Instruction Set Extensions
+  DI-OSVISE is a research project funded by the German Ministry of Education and Research
 url: "https://di-osvise.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  di-osvise
 logo: image/di-osvise.svg
