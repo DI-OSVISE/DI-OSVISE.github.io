@@ -25,6 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "https://di-osvise.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  di-osvise
 logo: image/di-osvise.svg
+copyright: © DI-OSVISE consortium
 
 # Build settings
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
