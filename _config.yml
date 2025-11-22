@@ -21,7 +21,7 @@
 title: Open Source Verification of Instruction Set Extensions
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  DI-OSVISE is a research project funded by the German Ministry of Education and Research
+  DI-OSVISE is a research project funded by the German Federal Ministry of Research, Technology and Space
 url: "https://di-osvise.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  di-osvise
 logo: image/di-osvise.svg
