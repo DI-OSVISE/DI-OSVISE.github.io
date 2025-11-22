@@ -6,4 +6,4 @@ subtitle: Open Source Verification of Instruction Set Extensions
 
 ## Welcome
 
-DI-OSVISE is a research project funded by the German Ministry of Education and Research, focused on open-source verification of instruction set extensions.
+DI-OSVISE is a research project funded by the German Federal Ministry of Research, Technology and Space, focused on open-source verification of instruction set extensions.
