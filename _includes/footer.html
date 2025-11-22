@@ -1,0 +1,22 @@
+<footer class="bg-light py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <p class="mb-0">{{ site.copyright }}</p>
+        <p class="text-muted mb-0">{{ site.description }}</p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <p class="mb-0">
+          <a href="/legal" class="text-light text-decoration-none">Legal & Privacy Notice</a>
+        </p>
+        {% if site.github_username %}
+        <p class="mb-0">
+          <a href="https://github.com/{{ site.github_username }}" class="text-light text-decoration-none">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</footer>
