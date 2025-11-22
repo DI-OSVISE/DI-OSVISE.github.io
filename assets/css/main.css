@@ -1,12 +1,13 @@
 /* Custom styles for DI-OSVISE site */
 
 :root {
-  --primary-color: #ffc72c; /* Logo yellow */
-  --secondary-color: #011e41; /* Logo navy blue */
-  --dark-bg: #011e41; /* Navy blue background */
+  --primary-color: #ffc72c;
+  --secondary-color: #011e41;
+  --dark-bg: #011e41;
   --light-bg: #f8f9fa;
   --accent-yellow: #ffc72c;
   --accent-navy: #011e41;
+  --link-blue: #275893;
 }
 
 body {
@@ -31,7 +32,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: var(--accent-navy) !important; /* Navy blue links */
+  color: var(--secondary-color) !important; /* Navy blue links */
   transition: color 0.2s;
 }
 
@@ -79,7 +80,7 @@ article h3 {
 }
 
 article a {
-  color: var(--accent-navy);
+  color: var(--link-blue);
   text-decoration: none;
 }
 
