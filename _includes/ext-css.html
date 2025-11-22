@@ -1,0 +1,5 @@
+{% if include.css.href %}
+  <link rel="stylesheet" href="{{ include.css.href }}" {% if include.css.sri %}integrity="{{ include.css.sri }}" crossorigin="anonymous"{% endif %}>
+{% else %}
+  <link rel="stylesheet" href="{{ include.css }}">
+{% endif %}

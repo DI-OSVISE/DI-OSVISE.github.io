@@ -1,0 +1,25 @@
+{% if site.common-js %}
+  {% for js in site.common-js %}
+    {% if js.href %}
+      <script src="{{ js.href }}" {% if js.sri %}integrity="{{ js.sri }}" crossorigin="anonymous"{% endif %}></script>
+    {% else %}
+      <script src="{{ js | relative_url }}"></script>
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if layout.common-js %}
+  {% for js in layout.common-js %}
+    {% if js.href %}
+      <script src="{{ js.href }}" {% if js.sri %}integrity="{{ js.sri }}" crossorigin="anonymous"{% endif %}></script>
+    {% else %}
+      <script src="{{ js | relative_url }}"></script>
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if page.js %}
+  {% for js in page.js %}
+    <script src="{{ js | relative_url }}"></script>
+  {% endfor %}
+{% endif %}
