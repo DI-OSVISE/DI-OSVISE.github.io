@@ -11,6 +11,8 @@ is part of the larger
 [DE:Sign](https://www.elektronikforschung.de/foerderung/bekanntmachungen/design)
 initiative for sovereign chip design.
 
+![Overview](/assets/images/osvise-overview.png){: .overview-image }
+
 ## Project Partners
 
 The DI-OSVISE project is coordinated by HM Hochschule München University of
