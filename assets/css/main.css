@@ -165,3 +165,20 @@ footer a:hover {
   height: auto;
   object-fit: contain;
 }
+
+.overview-image,
+img[src$="osvise-overview.png"] {
+  display: block;
+  width: 100%;
+  max-width: 800px;    /* limit the displayed size on large screens */
+  height: auto;
+  margin: 1.5rem auto;
+}
+
+/* Make the overview image more compact on small screens */
+@media (max-width: 768px) {
+  .overview-image,
+  img[src$="osvise-overview.png"] {
+    max-width: 100%;
+  }
+}
