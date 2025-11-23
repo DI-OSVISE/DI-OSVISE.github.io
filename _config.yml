@@ -19,12 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Open Source Verification of Instruction Set Extensions
-email: your-email@example.com
+repository: di-osvise/di-osvise.github.io
 description: >- # this means to ignore newlines until "baseurl:"
   DI-OSVISE is a research project funded by the German Federal Ministry of Research, Technology and Space
-url: "https://di-osvise.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://di-osvise.github.io"
 github_username:  di-osvise
-logo: image/di-osvise.svg
+logo: assets/images/di-osvise.svg
 copyright: © DI-OSVISE consortium
 
 # Build settings
