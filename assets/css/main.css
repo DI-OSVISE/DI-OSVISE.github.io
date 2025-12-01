@@ -108,6 +108,19 @@ article a:hover {
   color: var(--accent-navy);
 }
 
+/* Cross-post styling */
+.post-preview.cross-post h3 a {
+  color: var(--secondary-color);
+  font-style: italic;
+}
+
+.post-preview.cross-post h3 a:hover {
+  color: var(--accent-yellow);
+}
+
+.post-preview.cross-post {
+  opacity: 0.8;
+}
 /* Button styling */
 .btn-outline-primary {
   color: var(--accent-navy);
