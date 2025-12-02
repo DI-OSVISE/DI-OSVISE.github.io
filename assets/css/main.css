@@ -108,6 +108,15 @@ article a:hover {
   color: var(--accent-navy);
 }
 
+.post-entry {
+  margin-bottom: 1rem;
+}
+
+.post-meta {
+  color: color-mix(in srgb, currentColor 80%, transparent);
+  font-size: 0.9rem;
+}
+
 /* Cross-post styling */
 .post-preview.cross-post h3 a {
   color: var(--secondary-color);
