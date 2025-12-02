@@ -25,6 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "https://di-osvise.github.io"
 github_username:  di-osvise
 logo: assets/images/di-osvise.svg
+favicon: /assets/images/di-osvise-check.svg
 copyright: © DI-OSVISE consortium
 
 # Build settings
