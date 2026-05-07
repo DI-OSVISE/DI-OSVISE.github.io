@@ -204,3 +204,14 @@ img[src$="osvise-overview.png"] {
     max-width: 100%;
   }
 }
+
+.zoomable-svg {
+  width: 60%;
+  max-width: 800px;
+  cursor: zoom-in;
+  transition: transform 0.3s;
+}
+
+.zoomable-svg:hover {
+  transform: scale(2);
+}
