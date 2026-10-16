@@ -1,9 +1,7 @@
----
-layout: post
-title:  "IC Power Modeling: a Systematic Literature Review"
-date:   2026-06-29
----
-
++++
+title = "IC Power Modeling: a Systematic Literature Review"
+aliases = ["/2026/06/29/power-survey.html"]
++++
 
 As part of the OSVISE project, TUM and UzL performed a systematic literature
 review (SLR) on integrated circuit (IC) power modeling. Following is a short
@@ -11,6 +9,8 @@ overview of our work, which has also been submitted to ACM Computing Surveys and
 the preprint version is available
 [here](https://github.com/DI-OSVISE/documents/blob/main/20260629-Preprint-Survey/Power-Estimation-Survey.pdf)
 and [mediaTUM](https://mediatum.ub.tum.de/node?id=1857098).
+
+<!-- more -->
 
 Our work presents an SLR of IC power modeling research published in the past
 decade. We track three co-evolving dimensions, synthesizing peer-reviewed works:
@@ -52,4 +52,4 @@ insufficient cross-technology and cross-circuit generalization, impeding
 practical adoption; and the lack of accessible open-source power models, which
 hinders reproducibility and slows progress and advancement. The proposed SLR
 ultimately shows that combining ML with open-source platforms can advance
-robust, high-performance power models for next-generation semiconductor designs. 
+robust, high-performance power models for next-generation semiconductor designs.

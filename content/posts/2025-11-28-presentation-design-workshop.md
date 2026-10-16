@@ -1,11 +1,12 @@
----
-layout: post
-title:  "OSVISE Presentation at DE:Sign Workshop"
-date:   2025-11-28
----
++++
+title = "OSVISE Presentation at DE:Sign Workshop"
+aliases = ["/2025/11/28/presentation-design-workshop.html"]
++++
 
 We presented our work in OSVISE at the DE:Sign workshop _Digital Verification_
 organized by Chip Design Germany in Hanover.
+
+<!-- more -->
 
 ## DE:Sign workshop _Digital Verification_
 

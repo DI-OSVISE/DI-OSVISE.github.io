@@ -1,8 +1,10 @@
----
-layout: page
-title: About
-subtitle: Learn more about DI-OSVISE
----
++++
+title = "About"
+aliases = ["/about.html"]
+
+[extra]
+subtitle = "Learn more about DI-OSVISE"
++++
 
 ## Project Overview
 
@@ -11,13 +13,13 @@ is part of the larger
 [DE:Sign](https://www.elektronikforschung.de/foerderung/bekanntmachungen/design)
 initiative for sovereign chip design.
 
-![Overview](/assets/images/osvise-overview.png){: .overview-image }
+![Overview](/assets/images/osvise-overview.png)
 
 ### Publications
 
 **IC Power Modeling in the Era of Machine Learning: Where Do We Stand?**
 The preprint is available [here](https://github.com/DI-OSVISE/documents/blob/main/20260629-Preprint-Survey/Power-Estimation-Survey.pdf).
-Find an overview in the [blog post]({% post_url 2026-06-29-power-survey %}).
+Find an overview in the [blog post](@/posts/2026-06-29-power-survey.md).
 
 ## Project Partners
 

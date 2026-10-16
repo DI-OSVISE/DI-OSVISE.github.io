@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+{%- if page %}{% set current = page %}{% else %}{% set current = section %}{% endif %}
+<main class="container mt-5 pt-5 mb-5">
+  <div class="row">
+    <div class="col-lg-8 mx-auto">
+      <header class="mb-4">
+        <h1 class="display-4">{{ current.title }}</h1>
+        {%- if current.extra.subtitle %}
+        <p class="lead text-muted">{{ current.extra.subtitle }}</p>
+        {%- endif %}
+      </header>
+
+      <article>
+        {{ current.content | safe }}
+        {%- block article_extra %}{% endblock article_extra %}
+      </article>
+    </div>
+  </div>
+</main>
+{% endblock content %}

@@ -1,11 +1,12 @@
----
-layout: post
-title:  "Project Meeting Break-off Milestone"
-date:   2025-11-25
----
++++
+title = "Project Meeting Break-off Milestone"
+aliases = ["/2025/11/25/project-meeting-breakoff-milestone.html"]
++++
 
 This week the project partners came together in Munich for the break-off
 milestone meeting.
+
+<!-- more -->
 
 ## Break-off Milestone
 
