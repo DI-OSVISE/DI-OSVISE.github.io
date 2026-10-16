@@ -1,11 +1,12 @@
----
-layout: post
-title:  "Participation Chipdesign Germany Forum 2026"
-date:   2026-05-07
----
++++
+title = "Participation Chipdesign Germany Forum 2026"
+aliases = ["/2026/05/07/participation-CDGF.html"]
++++
 
 We presented our work in OSVISE at the [Chipdesign Germany Forum 2026](https://www.chipdesign-germany.de/de/events/2026/dresden-chipdesign-germany-forum/)
 in Dresden.
+
+<!-- more -->
 
 ## Chipdesign Germany Forum
 

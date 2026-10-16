@@ -1,11 +1,12 @@
----
-layout: post
-title:  "Intro Chosys project"
-date:   2025-08-28
----
++++
+title = "Intro Chosys project"
+aliases = ["/2025/08/28/intro-chosys.html"]
++++
 
 In this post, we explore [Chosys](https://github.com/hm-aemy/chosys). A project
 which brings together two important tools in the chip design ecosystem.
+
+<!-- more -->
 
 
 ## Motivation

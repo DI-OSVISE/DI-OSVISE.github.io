@@ -1,0 +1,24 @@
+base_url = "https://di-osvise.github.io"
+title = "Open Source Verification of Instruction Set Extensions"
+description = "DI-OSVISE is a research project funded by the German Federal Ministry of Research, Technology and Space"
+default_language = "en"
+
+compile_sass = false
+build_search_index = false
+generate_feeds = false
+
+[markdown]
+smart_punctuation = true
+
+[extra]
+repository = "di-osvise/di-osvise.github.io"
+github_username = "di-osvise"
+logo = "assets/images/di-osvise.svg"
+favicon = "assets/images/di-osvise-check.svg"
+copyright = "© DI-OSVISE consortium"
+
+navbar_links = [
+  { name = "Home", path = "@/_index.md" },
+  { name = "About", path = "@/about.md" },
+  { name = "Posts", path = "@/posts/_index.md" },
+]

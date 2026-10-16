@@ -1,0 +1,28 @@
+{% extends "page.html" %}
+
+{% block article_extra %}
+{% for post in section.pages %}
+{%- set external = post.extra.external_url %}
+<div class="post-preview{% if external %} cross-post{% endif %}">
+  {%- if external %}
+  <h3><a href="{{ external }}" target="_blank">{{ post.extra.source }}: {{ post.title }}</a></h3>
+  {%- else %}
+  <h3><a href="{{ post.permalink }}">{{ post.title }}</a></h3>
+  {%- endif %}
+  <p class="post-meta">Posted on {{ post.date | date(format="%B %-d, %Y") }}</p>
+  <div class="post-entry">
+    {%- if post.summary %}
+    {{ post.summary | safe }}
+    {%- elif post.description %}
+    {{ post.description }}
+    {%- endif %}
+  </div>
+  {%- if external %}
+  <a href="{{ external }}" class="post-read-more">View on {{ post.extra.source }}</a>
+  {%- else %}
+  <a href="{{ post.permalink }}" class="post-read-more">Read More</a>
+  {%- endif %}
+</div>
+<hr>
+{% endfor %}
+{% endblock article_extra %}
